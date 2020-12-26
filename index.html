@@ -12,6 +12,10 @@
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        a { color:white}
+    </style>
 </head>
 
 <body>
@@ -45,15 +49,16 @@
     </header>
     <br>
     <main>
-        <div class="container-sm">
-            <div class="card">
+        <div class="container-sm row justify-content-center">
+            <div class="card col-11">
                 <div class="card-body">
                     <h1>About Me</h1>
                     <hr>
+                    <div class="container">
                     <div class="row">
 
-                        <img src="Assets/Images/Mt_fuji.jpg" alt="Profile picture" class="img-size">
-                        <p>Bacon ipsum dolor amet pastrami biltong frankfurter swine andouille, pork loin
+                        <img src="Assets/Images/Mt_fuji.jpg" alt="Profile picture" class="img-size col-3">
+                        <p class="col-sm-6">Bacon ipsum dolor amet pastrami biltong frankfurter swine andouille, pork loin
                             cupim ball tip jerky jowl chislic burgdoggen pork belly sausage ribeye. Alcatra bresaola
                             shankle chislic ball tip. Pork fatback spare ribs chicken. Bresaola ribeye jerky sausage
                             pork belly, bacon ham hock shank t-bone ham pancetta jowl salami chicken. Tongue ham hock
@@ -62,7 +67,7 @@
                             ribs alcatra.</p>
                     </div>
                     <div class="row">
-                        <p>Bacon ipsum dolor amet pastrami biltong frankfurter swine andouille, pork loin cupim ball tip
+                        <p class="col-sm-6">Bacon ipsum dolor amet pastrami biltong frankfurter swine andouille, pork loin cupim ball tip
                             jerky jowl chislic burgdoggen pork belly sausage ribeye. Alcatra bresaola shankle chislic
                             ball tip. Pork fatback spare ribs chicken. Bresaola ribeye jerky sausage pork belly, bacon
                             ham hock shank t-bone ham pancetta jowl salami chicken. Tongue ham hock pastrami bresaola
@@ -70,14 +75,20 @@
                             pancetta. Spare ribs andouille tenderloin kielbasa, rump shank turkey short ribs alcatra.
                         </p>
                     </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 </body>
 
-<footer>
-
+<footer class="footer fixed-bottom bg-dark">
+    <div class="container text-center" id="sticky-footer">
+    <span style="font-size: 35px; align-self: center; color: inherit; text-decoration: none;">
+        <a href="https://github.com/Arivas00"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/alex-chisar-64a744123/"><i class="fab fa-linkedin"></i></a>
+    </span>
+    </div>
 </footer>
 
 </html>
