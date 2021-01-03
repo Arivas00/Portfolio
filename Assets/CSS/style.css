@@ -1,4 +1,14 @@
+
 .img-size {
     width: 225px;
-    height: auto;
 }
+
+main {
+    margin-top: 20px;
+}
+
+.port-image {
+    padding-top: 20px;
+}
+
+/*.image-margin */
