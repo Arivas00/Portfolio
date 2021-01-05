@@ -25,5 +25,7 @@ Pages utilize Bootstrap components and grid system.
 
 The following image shows the web application's appearance and functionality:
 
-![Screenshot](./assets/Images/)
+![Screenshot](./assets/Images/index.png)
+![Screenshot](./assets/Images/portfolio.png)
+![Screenshot](./assets/Images/contact.png)
 
